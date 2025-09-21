@@ -1,13 +1,7 @@
 name: 构建 and Push QingLong Docker Image
 
 on:
-  push:
-    branches: [ main ]
-      - 'QingLong/services.json'
-      - 'QingLong/notify.py'
-      - 'QingLong/front.conf'
-      - 'QingLong/docker-entrypoint.sh'
-      - 'QingLong/Dockerfile'
+  workflow_dispatch:    
 
 jobs:
   build:
