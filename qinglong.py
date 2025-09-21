@@ -80,7 +80,7 @@ if __name__ == "__main__":
         print("未获取到用户名信息，程序退出。")
         sys.exit(1)
     userid = user_info.get("name")
-    image = "ghcr.io/ykxvk8yl5l/spaces/qinglong:latest"
+    image = "ghcr.io/hagin2463/qing/qing:latest"
     if len(args.image) > 0:
         image = args.image
 
